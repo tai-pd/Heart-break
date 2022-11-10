@@ -388,9 +388,9 @@ var ParticlePool = (function() {
 
       var point = pointOnHeart(t);
 
-      point.x = settings.particles.size / 2 + point.x * settings.particles.size / 350;
+      point.x = settings.particles.size / 2 + point.x * settings.particles.size/350;
 
-      point.y = settings.particles.size / 2 - point.y * settings.particles.size / 350;
+      point.y = settings.particles.size / 2 - point.y * settings.particles.size/350;
 
       return point;
 
@@ -420,7 +420,7 @@ var ParticlePool = (function() {
 
     // create the fill
 
-    context.fillStyle = '#ea80b0';
+    context.fillStyle = '#39ed15';
 
     context.fill();
 
